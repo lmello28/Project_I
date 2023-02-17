@@ -1,0 +1,205 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.titulo3{
+  margin: 10px 0px 10px 0px;
+}
+body{
+font-family: Montserrant;  
+}
+a{
+  text-decoration: none;
+  color:white;
+}
+.divcabecalho{
+  color:white;
+  height: 110px;
+  width: 100%;
+  background: black;
+}
+.headerr{
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  width: 50%;
+}
+nav{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+#home{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-direction: row;
+}
+.navitem{
+   padding: 2%;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  gap: 20px;
+}
+
+header{
+  height: 110px;
+  background-color: black;
+}
+#img-head{
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+
+
+
+}
+footer{
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.footerB{
+    color: white;
+  height: 100%;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  background-color: black;
+  font-weight: 900;
+  font-size: 18px;
+  display: flex;
+}
+.divmain{
+  height: calc(100vh - 160px);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.boxA{
+  width: 50%;
+  height: 100%;
+  background-color: rgb(245, 245, 220);
+  text-align: center;
+}
+.boxB{
+    width: 50%;
+  height: 100%;
+  background-color: rgb(211, 211, 211);
+  text-align: center;
+  
+}
+embed{
+  max-width:600px;
+    max-height:600px;
+    margin-top: 120px;
+  
+}
+#balaoCinema {
+  margin-top: 10px;
+  width: 400px;
+  height: 300px;
+}
+
+#maps{
+margin-top: 10px
+}
+.headerC{
+  margin-top: 20px;
+
+}
+
+.movies{
+  display:flex;
+  justify-content: space-evenly;
+}
+.imgA{
+  align-items:center;
+  justify-content: space-around;
+  display:flex;
+  flex-direction: column;
+  border: 2px solid blueviolet;
+  border-radius: 10px;
+  width: 300px;
+  height: 500px;
+  font-size: 14px;
+  
+}
+.imgFilm{
+  
+  width: 200px;
+  
+}
+.fonte{
+  color: green;
+  font-weight: bold;
+  text-align: center;
+}
+table, td{
+  border: 1px solid blueviolet;
+  border-collapse: collapse;
+  text-align:center;
+    padding: 3px 3px 3px 3px;
+
+}
+.divfilmes{
+  display:flex;
+  flex-direction:column;
+  
+}
+.tabela{
+  display:flex;
+  align-self: center;
+  margin-top: 20px;
+  font-weight: bold;
+  
+}
+span{
+  color: firebrick;
+
+}
+.list{
+  list-style: none;
+}
+.local{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  
+}
+.top{
+  margin-top: 20px;
+}
+
+.botao{
+  border-radius: 10px;
+  border: 3px solid orange;
+  background-color: darkblue;
+  cursor:pointer;
+  opacity: 0.7px;
+  padding: 10px 15px 10px 15px;
+}
+.botao:hover{
+
+  background-color: orange;
+}
+.app{
+  display: flex;
+justify-content: flex-end;
+  margin: 50px 30px;
+  
+}
+#whatsapp{
+  
+  height: 60px;
+  width: 60px;
+}
